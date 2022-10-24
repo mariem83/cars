@@ -35,3 +35,6 @@ class Client(models.Model):
         self.age = age
         self.email = email
         self.cars_owned = cars_owned
+from django.db import models
+
+# Create your models here.
