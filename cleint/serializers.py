@@ -1,6 +1,4 @@
-from models import Car
-from models import Client
-from models import Company
+from .models import Car,Client,Company
 from rest_framework import serializers
 class CarSer(serializers.ModelSerializer):
     class Meta :
